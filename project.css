@@ -1,31 +1,48 @@
 .about-page {
     text-align: center;
-    color: blue;
+    color: violet;
+    
 }
 
 .h2-header {
-    color: red;
+    color: #DE73FF;
 }
 
 .home {
  text-align: center;
  float: left;
  font-size: 30px;
- margin: -20px 0px 0px -50px;
+ margin: -17px 1px 0px -50px;
  border: 16px;
- padding: 20px 20px 20px;
+ padding: 26px 20px 20px 20px;
  background-color: black;
+ opacity: 82%;
+ height: 31px;
+ width: 190px;
 }
 
 .list {
     text-align: center;
     font-size: 30px;
+    margin: -18px 200px 16px 180px;
+    border: 1px 1px 10px 1px;
+    background-color: black;
+    padding: 10px 15px 13px 1px;
+    opacity: 82%;
+    
 }
 
 .about {
-    text-align: center;
+    text-align: right;
     float: right;
-    font-size: 30px
+    border: auto;
+    font-size: 30px;
+    margin: -10px -70px 15px 5px;
+    padding: 14px 132px 32px 50px;
+    background-color: black;
+    opacity: 82%;
+    margin-top: -80px;
+    height: 18px
 
 }
 
@@ -41,7 +58,50 @@ a {
 }
 
 .nba-home {
-    background-image: url("https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/3/2023-nba-finals-denver-nuggets-championship-portraits-jesse-d-garrabrant.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-color: paleturquoise
 }
+
+.h2-header {
+    overflow: hidden;
+    margin: 40px;
+    border: 30px;
+    background-color: blue;
+    padding: 10px;
+}
+
+.h3-header {
+    overflow: hidden;
+    margin: 10px;
+    border: 30px;
+    background-color: blue;
+    padding: 10px;
+    color: #DE73FF;
+    
+}
+
+.p1 {
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 18px;
+    color: palevioletred;
+}
+
+.trae {
+width: 600px;
+height: 400px;
+display: flex;
+margin: auto;
+}
+
+.h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: purple;
+
+}
+
+.h41 {
+    font-size: 20px;
+}
+
