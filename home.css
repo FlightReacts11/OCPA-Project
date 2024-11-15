@@ -1,0 +1,207 @@
+
+
+.home {
+    text-align: center;
+    float: left;
+    font-size: 30px;
+    margin: -17px -5px 0px -50px;
+    border: 16px;
+    padding: 26px 25px 20px 20px;
+    background-color: black;
+    height: 31px;
+    flex: 1 1 200px;
+    width: 35%
+   }
+   
+   .list {
+       text-align: center;
+       font-size: 30px;
+       margin: -16px 201px 16px 100px;
+       border: 1px 1px 10px 1px;
+       background-color: black;
+       padding: 10px 15px 13px 1px;
+       flex: 1 1 200px;
+
+   }
+   
+   .about {
+    text-align: right;
+    float: right;
+    border: auto;
+    font-size: 30px;
+    margin: -10px -70px 14px 5px;
+    padding: 14px 132px 32px 50px;
+    background-color: black;
+    margin-top: -80px;
+    height: 18px;
+   }
+
+
+   
+ .h1-1 {
+    color: #DE73FF;
+    text-align: center;
+    background-color: black;
+    margin: 30px;
+    border: 40px;
+ }
+
+ ul {
+    list-style: none;
+ }
+
+.nba-home {
+    background-color: #000000;
+    background-size: 20px 20px;
+    background-image:  repeating-linear-gradient(to right, #d20eca, #d20eca 1px, #000000 1px, #000000);
+}   
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+    font-family: verdana;
+}
+
+.h2-1 {
+    background-color: black;
+    color: #DE73FF;
+    font-family: verdana;
+    font-size: 20px;
+    margin: 15px;
+    border: 30px;
+}
+
+.container {
+    position: relative;
+    top: 100px;
+    background-size: 20px 20px;
+    background-image:  repeating-linear-gradient(to right, #7d1f8d, #7d1f8d 1px, #000000 1px, #000000);
+    border: solid;
+    border-radius: 50px;
+    border-color: pink;
+    counter-reset: section;
+}
+
+.container .h1-button {
+    text-align: center;
+    color: #DE73FF;
+    font-weight: 100;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.container .h2-subscription {
+    color:#d3b6ca; 
+    text-align:center;
+    font-size:1.2em;
+}
+
+.container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.container form span:before {
+    counter-increment: section; 
+    content: counter(section);
+    border: 2px solid #4c2639;
+    width: 40px;
+    height: 40px;
+    color: purple;
+    display: flex;
+    border-radius: 50%;
+    line-height: 1.6em;
+    font-size: 1.5em;
+    position: relative;
+    left: -8px;
+    top: 1px;
+    background: violet;
+    font-family: georgia;
+    background: black;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin-top: 25px;
+    display: inline-block;
+    position: relative;
+}
+
+.fields {
+    border-left: 2px;
+}
+
+.container span {
+    margin-bottom: 14px;
+    display: inline-block
+}
+
+.container span:last-child {
+    margin-bottom: 45px
+}
+
+input {
+    border: none;
+    outline: none;
+    display: inline-block;
+    height: 34px;
+    vertical-align: middle;
+    position: relative;
+    bottom: 37px;
+    right: -50px;
+    border-radius: 22px;
+    max-width: 220px;
+    width: 220px;
+    box-sizing: border-box;
+    padding: 0 18px;
+    text-align: center;
+}
+
+input[type="button"]{
+    background:rgba(197,62,126,.33) ! important;
+  color:#fff;
+  position:relative;
+  left: -112px;
+  width: 100px;
+  bottom: -65px;
+  cursor: pointer;
+}
+
+.body-box {
+    counter-reset: section;
+    text-align: center;
+
+}
+
+.gabe-sports {
+    height: 570px;
+    width: 330px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.div-img {
+    background: repeating-linear-gradient(90deg, transparent, #9616ab);
+    background-size: 3em 3em;
+    background-color: #000000;
+    opacity: 1;
+}
+
+.honorable-mentions {
+    text-align: center;
+    font-weight: bold;
+    color: pink;
+
+}
+
+.h3-mentions {
+    text-align: center;
+    color: red;
+    background-color: pink;
+}

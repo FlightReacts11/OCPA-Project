@@ -1,0 +1,99 @@
+.home {
+    text-align: center;
+    border: 20px;
+    margin: 20px;
+    background-color: black;
+    color: violet;
+}
+
+body {
+    background-color: #000000;
+    background-size: 20px 20px;
+    background-image:  repeating-linear-gradient(to right, #d20eca, #d20eca 1px, #000000 1px, #000000);
+}
+
+a {
+    text-decoration: none;
+    color: violet;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+.tatum {
+    width: 480px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+}
+
+p {
+    color: white;
+    font-size: 23px;
+}
+
+.paolo {
+    margin: auto;
+    display: flex;
+    height: 400px;
+    width: 482px;
+}
+
+.lillard {
+    margin: auto;
+    display: flex;
+    width: 490px;
+    height: 400px;
+}
+
+.trae {
+    margin: auto;
+    display: flex;
+    width: 480px;
+    height: 360px
+}
+
+.brunson {
+    margin: auto;
+    display: flex;
+    width: 500px;
+    height: 400px
+}
+
+.kyrie {
+    margin: auto;
+    display: flex;
+    width: 540px;
+    height: 370px; 
+}
+
+.donovan {
+    margin: auto;
+    display: flex;
+    width: 500px;
+    height: 350px;
+}
+
+.devin {
+    margin: auto;
+    display: flex;
+    width: 510px;
+    height: 360px;
+}
+
+.sabonis {
+    margin: auto;
+    display: flex;
+    width: 510px;
+    height: 380px;
+}
+
+.victor {
+    margin: auto;
+    display: flex;
+    width: 520px;
+    height: 300px;
+}
