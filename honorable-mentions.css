@@ -1,4 +1,4 @@
-.home {
+.home { /*back to home tab*/
     text-align: center;
     border: 20px;
     margin: 20px;
@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #000000;
+    background-color: #000000; /*body background*/
     background-size: 20px 20px;
     background-image:  repeating-linear-gradient(to right, #d20eca, #d20eca 1px, #000000 1px, #000000);
 }
@@ -15,6 +15,8 @@ body {
 a {
     text-decoration: none;
     color: violet;
+    width: 100%;
+    height: auto;
 }
 
 h2 {
@@ -24,8 +26,8 @@ h2 {
 }
 
 .tatum {
-    width: 480px;
-    height: 400px;
+    width: 80%;
+    height: auto;
     margin: auto;
     display: flex;
 }
@@ -33,67 +35,68 @@ h2 {
 p {
     color: white;
     font-size: 23px;
+    text-align: center;
 }
 
-.paolo {
+.paolo { /*honorable mention list*/
     margin: auto;
     display: flex;
-    height: 400px;
-    width: 482px;
+    width: 80%;
+    height: auto;
 }
 
 .lillard {
     margin: auto;
     display: flex;
-    width: 490px;
-    height: 400px;
+    width: 80%;
+    height: auto;
 }
 
 .trae {
     margin: auto;
     display: flex;
-    width: 480px;
-    height: 360px
+    width: 80%;
+    height: auto;
 }
 
 .brunson {
     margin: auto;
     display: flex;
-    width: 500px;
-    height: 400px
+    width: 80%;
+    height: auto;
 }
 
 .kyrie {
     margin: auto;
     display: flex;
-    width: 540px;
-    height: 370px; 
+    width: 80%;
+    height: auto;
 }
 
 .donovan {
     margin: auto;
     display: flex;
-    width: 500px;
-    height: 350px;
+    width: 80%;
+    height: auto;
 }
 
 .devin {
     margin: auto;
     display: flex;
-    width: 510px;
-    height: 360px;
+    width: 80%;
+    height: auto;
 }
 
 .sabonis {
     margin: auto;
     display: flex;
-    width: 510px;
-    height: 380px;
+    width: 80%;
+    height: auto;
 }
 
 .victor {
     margin: auto;
     display: flex;
-    width: 520px;
-    height: 300px;
-}
+    width: 80%;
+    height: auto;
+} /*end of honorable mention list*/
